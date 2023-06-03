@@ -1,6 +1,7 @@
 return {
     --key is registered to discord ID: 1089653452986134698
-    hwid1 = "bbcdf6e4ac569e1b24634e3ae651178cd9e2fe47475679c8f9265cea6291211",
+    discordid1 = 1089653452986134698
+    hwid1 = "bbcdf6e4ac569e1b24634e3ae651178cd9e2fe47475679c8f9265cea629121a1",
     key1 = "WYDwH1ndrB0gLJN3pMzIhv7mEUbTO1M2",
     ip1 = "90.201.148.112",
 }
