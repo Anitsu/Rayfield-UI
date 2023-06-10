@@ -3,8 +3,4 @@ return {
     hwid1 = "A6590D2E-07CD-4408-9BD5-80FAB829A6F5",
     key1 = "WYDwH1ndrB0gLJN3pMzIhv7mEUbTO1M2",
     ip1 = "90.201.148.112",
-    --key is registered to discord ID: 203963452986613464
-    hwid2 = "F2D2E-07CD-4408-9BD5-805FAB829A6F5",
-    key2 = "TmAZ2hDOr9PnSYDUJEiHUBpCLw4E9yyM",
-    ip2 = "11.201.148.152",
 }
