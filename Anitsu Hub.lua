@@ -1,9 +1,6 @@
---Disable AC Logging Methods:
-for i,v in pairs(getconnections(game:GetService("ScriptContext").Error)) do
-    v:Disable()
-end 
+local httpRequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
+local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
 
---Whitelist: 
 local Rayfield = loadstring(httpRequest({Url = "https://raw.githubusercontent.com/Anitsu/Rayfield-UI/main/Anitsu%20Hub.lua"}).Body)()
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
@@ -11,8 +8,6 @@ Title = "Anitsu Hub";
 Text = "LOADING...";
 Duration = 3;
 })
-local httpRequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
-local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
 
 --Anti Afk:
 for i,v in pairs(getconnections(game.Players.LocalPlayer.Idled)) do 
