@@ -316,4 +316,7 @@ game.Players.PlayerAdded:Connect(function(plr)
     end)
 end)
 
+queueonteleport([[
+loadstring(request({Url = "https://raw.githubusercontent.com/Anitsu/Rayfield-UI/main/Anitsu%20Hub.lua"}).Body)()
+]])
 
