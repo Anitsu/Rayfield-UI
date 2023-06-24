@@ -4,7 +4,7 @@ for i,v in pairs(getconnections(game:GetService("ScriptContext").Error)) do
 end 
 
 --Whitelist: 
-local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Rayfield/main/source"))()
+local Rayfield = loadstring(httpRequest({Url = "https://raw.githubusercontent.com/Anitsu/Rayfield-UI/main/Anitsu%20Hub.lua"}).Body)()
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
 Title = "Anitsu Hub";
