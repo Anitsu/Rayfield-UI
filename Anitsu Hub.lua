@@ -1,7 +1,7 @@
 local httpRequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
 local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
 
-local Rayfield = loadstring(httpRequest({Url = "https://raw.githubusercontent.com/Anitsu/Rayfield-UI/main/Anitsu%20Hub.lua"}).Body)()
+local Rayfield = loadstring(httpRequest({Url = "https://raw.githubusercontent.com/shlexware/Rayfield/main/source"}).Body)()
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
 Title = "Anitsu Hub";
